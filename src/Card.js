@@ -1,14 +1,13 @@
-
-
-
 /** Card: Show a card image
  *
  * Props
- * card - { ... }
+ * card: { code, image, images, value, suit }
+ *
+ * Deck -> Card
 */
 function Card({ card }) {
   return (
-    <img src={`${}`} alt="" />
+    <img src={`${card.image}`} alt={card.code} />
   );
 }
 
