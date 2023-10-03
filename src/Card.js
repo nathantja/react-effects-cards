@@ -9,7 +9,7 @@
 function Card({ card }) {
   return (
     <img src={`${}`} alt="" />
-  )
+  );
 }
 
 export default Card;
